@@ -1,0 +1,89 @@
+/* reset estilos */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+/* id == # */
+#p_chau {
+    color: green;
+}
+
+/* clases == .*/
+
+.p_class {
+    color: aqua;
+}
+
+.hola {
+    font-size: 50px;
+}
+
+/* etiqueta */
+
+/* 
+div {
+    background-color: black;
+    color: white;
+    height: 100vh;
+} */
+
+
+
+/* p {
+    color: red;
+} */
+
+/* p {
+    color: blue;
+} */
+
+/* p {
+    color: green;
+} */
+
+
+#p {
+    color: red;
+}
+
+.p {
+    color: green;
+}
+
+p {
+    color: blue;
+}
+
+
+li {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p {
+    font-style: italic;
+    text-align: center;
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    /* background-color: yellow; */
+    background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/artear/QLNSCUL7PZIBGS27B4XQPOQ4EU.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}

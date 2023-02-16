@@ -1,0 +1,154 @@
+/* globales */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.d-flex {
+    display: flex;
+}
+
+main section div {
+    display: none;
+}
+
+#grid_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+}
+
+header {
+    background-color: violet;
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.logo_container {
+    height: 100px;
+    width: 100px;
+}
+
+.article_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+main {
+    height: 100vh;
+}
+
+/* mobile first */
+.li_container {
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.li_container li {
+    list-style: none;
+}
+
+.li_container li a {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+
+footer {
+    background-color: black;
+    height: 7rem;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+footer ul li {
+    list-style: nones;
+}
+
+footer ul li a {
+    color: white;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    nav .li_container {
+        flex-direction: row;
+    }
+
+    body {
+        min-height: 80vh;
+    }
+
+    #grid_container {
+        grid-template-columns: 3fr;
+        grid-template-areas:
+            "header header header"
+            "main main main"
+            "footer footer footer";
+    }
+
+    main {
+        height: 50vh;
+    }
+
+    main section div {
+        display: block;
+    }
+
+    main section .logo_container2 {
+        display: none;
+    }
+
+    .d_equipo_container {
+        display: flex;
+    }
+
+    .article_container {
+        align-items: center;
+        justify-content: space-around;
+        height: 100%;
+    }
+}

@@ -1,0 +1,80 @@
+/* segunda manera de importar fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+/* div {
+    display: inline;
+} */
+
+/* span {
+    display: block;
+} */
+
+li {
+    display: inline-block;
+    margin: 30px;
+}
+
+/* .d-none {
+    display: none;
+} */
+a {
+    color: white;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+}
+
+.relative {
+    background-color: red;
+    position: relative;
+    top: 30px;
+    z-index: 2;
+}
+
+.absolute {
+    background-color: green;
+    position: relative;
+    z-index: 3;
+}
+
+/* .sticky {
+    position: sticky;
+    left: 950px;
+    top: 400px;
+} */
+
+
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+}
+
+section {
+    background-image: url();
+}

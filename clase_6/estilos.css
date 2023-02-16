@@ -1,0 +1,28 @@
+.main_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.main_container .red {
+    background-color: red;
+}
+
+.main_container .green {
+    background-color: green;
+}
+
+.main_container .blue {
+    background-color: blue;
+}
+
+.sub_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.sub_container div {
+    height: 30px;
+    width: 30px;
+    color: white;
+}

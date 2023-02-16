@@ -1,0 +1,45 @@
+.modal_container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card_container {
+    display: flex;
+
+}
+
+.container_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card {
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.section_container {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: black;
+    height: 100px;
+
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+footer ul li {
+    color: wheat;
+    list-style: none;
+}

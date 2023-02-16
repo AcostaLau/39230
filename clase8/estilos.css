@@ -1,0 +1,51 @@
+/* *Estilos base para los divs*/
+div {
+    border: solid grey 1px;
+    padding: 10px;
+}
+
+/*Estilos base para los enlaces*/
+
+a {
+    /*Todos los elementos <a>*/
+
+    display: inline-block;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: azure;
+    color: rgb(10, 10, 60);
+
+}
+
+.ps:hover {
+    background-color: red;
+    height: 100px;
+}
+
+a:active {
+    /*Todos los elementos <a> cuando se está haciendo click sobre ellos*/
+    background-color: yellow;
+    color: black;
+}
+
+a:visited {
+    /*Todos los elementos <a> que tengan un atributo href definido y ya hayan sido visitados*/
+    background-color: darkslategrey;
+    color: #999;
+}
+
+div:not(.padre) {
+    padding-left: 40px;
+}
+
+
+/* .container div:nth-child(5) {
+    background-color: red;
+}
+
+.container div:nth-child(3) {
+    background-color: red;
+}
+
+
+.logo_img:has(>img) {} */
